@@ -9,12 +9,15 @@
     "lint": "next lint"
   },
   "dependencies": {
+    "@aws-amplify/ui-react": "^5.3.1",
     "@emotion/react": "^11.11.1",
     "@emotion/styled": "^11.11.0",
     "@mui/material": "^5.14.11",
+    "aws-amplify": "^5.3.11",
     "next": "latest",
     "react": "latest",
     "react-dom": "latest",
+    "react-lottie-player": "^1.5.5",
     "styled-components": "^6.0.8"
   },
   "devDependencies": {
