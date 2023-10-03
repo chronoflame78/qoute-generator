@@ -1,7 +1,7 @@
 import { BackGroundImage1, BackGroundImage2, FooterCon, FooterLink, GenerateQuoteButton, GenerateQuoteButtonText, GradientBackgroundCon, QuoteGeneratorCon, QuoteGeneratorInnerCon, QuoteGeneratorSubTitle, QuoteGeneratorTitle } from "@/components/QuoteGenerator/QuoteGeneratorElements"
 import Head from "next/head"
-import Clouds1 from "@/assets/cloud-and-thunder.png"
-import Clouds2 from "@/assets/cloudy-weather.png"
+import Clouds1 from "../assets/cloudy-weather.png"
+import Clouds2 from "../assets/cloud-and-thunder.png"
 import { useEffect, useState } from "react";
 import { API } from "aws-amplify";
 import { generateAQuote, quotesQueryName } from "@/src/graphql/queries";
